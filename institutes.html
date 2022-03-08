@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9c54f93b1c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css">
+    <title>National Scholarship Portal</title>
+  </head>
+  <body>
+    <header>
+      <section class="top">
+        <div class="container">
+          <div class="branding flex-row">
+            <img src="img/emblem.jpg" alt="" />
+            <div class="flex-col">
+                <h1 class="red">National Scholarship Portal</h1>
+            <p>
+              Ministry Of Electronics & Information Technology, Government of
+              India
+            </p>
+            </div>
+          </div>
+          <img src="img/srpt.jpg" alt="" />
+          <img src="img/dilogo.jpg" alt="" />
+        </div>
+      </section>
+      <section class="bottom">
+        <div class="container">
+          <nav>
+            <ul>
+              <li>
+                <i class="fa fa-user-plus fa-2x" style="color: #21c465"></i> New
+                User? Register
+              </li>
+              <li>
+                <i
+                  class="fa fa-sign-in fa-2x blink_text"
+                  style="color: #004892"
+                ></i>
+                Login to Apply
+              </li>
+              <li>
+                <i
+                  class="fa fa-retweet fa-2x blink_text"
+                  style="color: #996300"
+                ></i>
+                Apply for Renewal
+              </li>
+              <li>
+                <i class="fa fa-adn fa-2x" style="color: #21c465"></i>Search
+                Institute/School/ITI
+              </li>
+              <li>
+                <i class="fa fa-adn fa-2x" style="color: #21c465"></i>Scheme
+                Wise Scholarship Sanctioned List
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="container">
+        <p class="red">
+          Click for How to Add School / Institute with valid DISE or AISHE code
+        </p>
+        <p class="bold">Search Institute/School/ITI registered with NSP</p>
+        <form action="">
+          <div class="left">
+            <p>Institute State</p>
+            <select>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="">Madhya Pradesh</option>
+            </select>
+            <p>Institute/College/ITI</p>
+            <select>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="">School</option>
+            </select>
+          </div>
+          <div class="right">
+            <p>Institute District</p>
+            <select>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="">Bhopal</option>
+            </select>
+            <p>School/College/ITI(Optional)</p>
+            <p class="red">(Enter first 3 character)</p>
+            <input type="text" />
+          </div>
+          <button class="btn" type="submit">Get Institution list</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
