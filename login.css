@@ -1,0 +1,72 @@
+.head-main{
+    color: red;
+    font-size: 26px;
+}
+
+.lion-img{
+    height: 70px;
+    width: 55px;
+    display: inline;
+}
+.blank-div{
+    padding: 5px;
+    background-color: black;
+}
+.blank-div2{
+    padding: 10px;
+    background-color: grey;
+}
+
+.item1{
+    left: 0;
+    padding-left: 5%;
+}
+.item3{
+    padding-left: 5%;
+}
+.item4{
+    padding-left: 12%;
+}
+.margin0{
+    margin: 0;
+}
+
+.card-custom{
+    /* height: 500px                   !important; */
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.fill-class{
+    margin: 5%;
+}
+
+.login-head{
+    padding: 5%;
+}
+
+.footer{
+    text-align: center;
+    background-color: grey;
+    position: fixed;
+    height: 25px;
+    bottom: 0;
+    width: 100%;
+}
+.forget-pass{
+    font-size: 15px;
+    color: grey;
+}
+/* .back{
+    background-image: url("./s12.jpg");
+    height: 100%;
+    background-size: cover;
+} */
+.backgrnd{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+
+}
